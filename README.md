@@ -25,28 +25,41 @@ The Spam Email Detector is one of the earliest and most practical AI application
 
 ---
 
-## 📂 Dataset Structure
-
-The project reads emails from `.txt` files organized in folders:
-
-
-
 
 
 ------------------------------------------------------------------------------------
 
+## 🗂 Data Structure
+
+The project follows a simple folder structure to organize email datasets:
 
 Project Root/
 │
 ├─ data/
+
 │ ├─ ham/ # Contains legitimate emails
+
 │ │ ├─ email1.txt
 │ │ ├─ email2.txt
 │ │ └─ ...
+
+
 │ └─ spam/ # Contains spam emails
+
 │ ├─ spam1.txt
 │ ├─ spam2.txt
 │ └─ ...
+
+
+- **ham/**: This folder contains legitimate (non-spam) emails. Each `.txt` file represents a single email.  
+- **spam/**: This folder contains spam emails. Each `.txt` file represents a single email.  
+
+💡 **Note:** For testing purposes, it’s enough to have a few sample emails in each folder. Each file should contain exactly **one email**.
+
+
+
+
+
 
 
 
@@ -55,7 +68,7 @@ Project Root/
 
 **Note:** Each `.txt` file should contain a single email message.
 
----
+------------------------------------------------------------------) 
 
 ## ⚡ How It Works
 
