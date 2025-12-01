@@ -152,10 +152,13 @@ Classification Report:
 
 📚 References
 
-Scikit-learn: Naive Bayes
-NLTK Documentation
-SpamAssassin Public Dataset
-Enron Email Dataset
+## 📚 References
+
+- [Scikit-learn: Naive Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html)
+- [NLTK Documentation](https://www.nltk.org/)
+- [SpamAssassin Public Dataset](https://spamassassin.apache.org/old/publiccorpus/)
+- [Enron Email Dataset](https://www.cs.cmu.edu/~enron/)
+
 
 ----------------------------------------------------------------
 
